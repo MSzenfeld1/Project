@@ -1,0 +1,223 @@
+1. Opis projektu
+
+VELVET CROWN Casino to nowoczesna aplikacja webowa typu single-page application (SPA). Została napisana w technologiach HTML, CSS oraz JavaScript. Projekt symuluje działanie internetowego kasyna, oferując system logowania użytkowników, wirtualny balans środków oraz zestaw mini-gier hazardowych.
+
+Aplikacja działa całkowicie po stronie klienta (frontend) i nie potrzebuje backendu ani bazy danych.
+
+2. Technologie użyte w projekcie
+
+Projekt zrealizowany jest z użyciem następujących technologii:
+
+Technologia Zastosowanie  
+HTML5 Struktura aplikacji  
+CSS3 Stylizacja i animacje  
+JavaScript Logika aplikacji  
+LocalStorage Przechowywanie danych użytkownika  
+Google Fonts Czcionki interfejsu  
+
+3. Funkcjonalności aplikacji  
+3.1 System logowania i rejestracji
+
+Aplikacja posiada:
+
+ekran logowania,  
+ekran rejestracji,  
+przełączanie pomiędzy formularzami,  
+walidację danych użytkownika,  
+przechowywanie kont w LocalStorage.  
+
+Funkcje:
+
+tworzenie konta,  
+logowanie użytkownika,  
+wylogowanie,  
+zapamiętywanie aktywnej sesji.  
+
+3.2 Lobby kasyna
+
+Po zalogowaniu użytkownik przechodzi do głównego lobby. 
+
+Lobby zawiera:
+
+saldo użytkownika,  
+listę dostępnych gier,  
+statystyki,  
+menu nawigacyjne,  
+historię rozgrywek,  
+profil użytkownika.  
+
+4. Dostępne gry  
+4.1 Blackjack
+
+Gra umożliwia:
+
+dobieranie kart,  
+zatrzymanie rozdania,  
+liczenie punktów,  
+wykrywanie Blackjacka,  
+wygraną, przegraną lub remis.  
+
+Elementy:
+
+talia kart,  
+ręka gracza,  
+ręka krupiera,  
+system zakładów.  
+
+4.2 Video Poker
+
+Funkcjonalności:
+
+losowanie kart,  
+zatrzymywanie wybranych kart,  
+analiza układu pokerowego,  
+tabela wypłat.  
+
+Obsługiwane układy:
+
+para,  
+dwie pary,  
+trójka,  
+full house,  
+poker,  
+royal flush.  
+
+4.3 Plinko
+
+Gra oparta na fizyce odbijającej się kulki. 
+
+Zawiera:
+
+różne poziomy ryzyka,  
+mnożniki wygranej,  
+historię ostatnich wyników,  
+animację spadania kulki.  
+
+4.4 Slot Machine
+
+Automat slotowy zawierający:
+
+obracające się bębny,  
+symbole wygranej,  
+mnożniki,  
+animacje spinów,  
+system naliczania nagród.  
+
+4.5 Roulette
+
+Ruletka umożliwia:
+
+obstawianie kolorów,  
+obstawianie numerów,  
+spinning koła ruletki,  
+obliczanie wygranych.  
+
+5. Struktura interfejsu użytkownika
+
+Projekt został podzielony na główne sekcje:
+
+Sekcja Opis  
+Auth Screen Logowanie i rejestracja  
+Main Screen Główne okno aplikacji  
+Lobby Ekran startowy  
+Games Poszczególne gry  
+Profile Dane użytkownika  
+History Historia zakładów  
+
+6. Stylizacja aplikacji
+
+Projekt wykorzystuje nowoczesny design, taki jak w premium kasynach. 
+
+Cechy interfejsu:
+
+ciemny motyw,  
+złote akcenty,  
+animacje CSS,  
+efekty hover,  
+responsywność,  
+gradienty,  
+efekty blur i glassmorphism.  
+
+Zdefiniowano zmienne CSS w :root, m.in.:
+
+--gold  
+--bg  
+--card  
+--text  
+
+7. Animacje
+
+W projekcie zastosowano wiele animacji CSS:
+
+Animacja Zastosowanie  
+bgPulse Animowane tło  
+shimmer Efekt połysku logo  
+dealCard Rozdawanie kart  
+reelSpin Obracanie slotów  
+particleFloat Cząsteczki tła  
+confettiFall Efekt wygranej  
+
+8. Responsywność
+
+Aplikacja zawiera media queries dla urządzeń mobilnych. 
+
+Dostosowywane elementy:
+
+navbar,  
+układ lobby,  
+wielkość kart,  
+formularze,  
+układ gier.  
+
+9. Zarządzanie stanem aplikacji
+
+Stan aplikacji przechowywany jest:
+
+w zmiennych JavaScript,  
+w LocalStorage.  
+
+Przechowywane dane:
+
+użytkownicy,  
+saldo,  
+historia gier,  
+aktywna sesja.  
+
+10. Bezpieczeństwo
+
+Projekt ma charakter demonstracyjny i nie zapewnia pełnego bezpieczeństwa produkcyjnego. 
+
+Brakuje:
+
+szyfrowania haseł,  
+backendu,  
+autoryzacji serwerowej,  
+ochrony przed manipulacją LocalStorage.  
+
+11. Możliwe rozszerzenia projektu
+
+Potencjalne rozwinięcia:
+
+integracja backendu Node.js,  
+baza danych MySQL/MongoDB,  
+multiplayer,  
+prawdziwe płatności,  
+ranking graczy,  
+websockety,  
+system achievementów,  
+panel administratora.  
+
+12. Uruchomienie projektu  
+Wymagania  
+przeglądarka internetowa,  
+obsługa JavaScript.  
+
+Uruchomienie  
+Pobierz plik casino.html  
+Otwórz go w przeglądarce  
+Zarejestruj konto  
+Rozpocznij grę  
+
+13. Podsumowanie
+
+Projekt „VELVET CROWN Casino” to kompletną frontendową symulację internetowego kasyna. Aplikacja prezentuje nowoczesny interfejs użytkownika, rozbudowane animacje oraz wiele mechanik hazardowych. Projekt dobrze pokazuje możliwości HTML, CSS i JavaScript w tworzeniu interaktywnych aplikacji webowych.
